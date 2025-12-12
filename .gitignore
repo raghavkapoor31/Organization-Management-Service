@@ -19,7 +19,3 @@ dist/
 build/
 *.egg-info/
 
-# Deployment
-.railway/
-.fly/
-
