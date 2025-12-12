@@ -8,6 +8,9 @@ class Settings(BaseSettings):
     jwt_secret_key: str = "your-secret-key-change-this-in-production"
     jwt_algorithm: str = "HS256"
     jwt_expiration_hours: int = 24
+    port: int = 8000
+    
+    # For production deployments, these will be set via environment variables
     
     class Config:
         env_file = ".env"

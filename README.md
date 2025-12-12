@@ -105,6 +105,8 @@ wedding company backend/
 
 ## Running the Application
 
+### Local Development
+
 1. **Start the FastAPI server**
    ```bash
    uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
@@ -114,6 +116,18 @@ wedding company backend/
    - API Base URL: `http://localhost:8000`
    - Interactive API Docs (Swagger): `http://localhost:8000/docs`
    - Alternative API Docs (ReDoc): `http://localhost:8000/redoc`
+
+### Production Deployment
+
+This application can be deployed to various platforms. See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+
+**Quick Deploy Options:**
+- **Render** (Recommended): Free tier, auto-deploy from GitHub
+- **Railway**: Easy setup, GitHub integration
+- **Fly.io**: Global deployment
+- **PythonAnywhere**: Python-specific hosting
+
+**Live Demo**: Once deployed, your API will be available at your hosting platform's URL (e.g., `https://your-app.onrender.com`)
 
 ## API Endpoints
 
